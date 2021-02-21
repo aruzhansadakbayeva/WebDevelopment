@@ -16,7 +16,7 @@ addButton.addEventListener('click', function () {
 
     const removeTask =   document.createElement('img')
 removeTask.className = 'image';
-    removeTask.src = 'img/20210221131448.png';
+    removeTask.src = 'img.png';
     removeTask.alt = 'Delete task';
     removeTask.addEventListener('click', deleteItem);
 
